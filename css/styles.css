@@ -92,3 +92,37 @@ h1{
   width: 350px;
   border: 7px solid aquamarine;
 }
+
+.about{
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  width: 100cw;
+  align-items: center;
+}
+
+.about img{
+  width: 100%;
+  grid-column: 1/5
+}
+
+.about-info{
+  grid-column: 5/10;
+  padding: 3em;
+}
+
+.about-info h2{
+  font-size: 2em;
+  color: #191c32;
+}
+
+.divider{
+  height: 4px;
+  width: 60px;
+  background-color: aquamarine;
+  margin-top: 10px;
+  margin-bottom: 2.5em;
+}
+
+.about p{
+  margin-bottom: 1em;
+}
