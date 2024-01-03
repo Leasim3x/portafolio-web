@@ -268,3 +268,33 @@ h1{
   background-color: #fff;
   box-shadow: none;
 }
+
+.footer{
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 200px;
+  background-color: cornflowerblue;
+}
+
+.footer-content h2{
+  font-size: 3em;
+}
+
+.footer-content h5, .social{
+  font-size: 1.5em;
+}
+
+.social-network{
+  display: flex;
+  justify-content: space-evenly;
+  width: 300px;
+  margin-top: 1.em;
+}
+
+.social-network i:hover{
+  cursor: pointer;
+}
